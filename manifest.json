@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "BuildBoard",
+  "version": "1.0",
+  "description": "Get project ideas (web, CLI, chrome extension, VS Code extension, tools, etc.) based on a difficulty parameter using Gemini.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "BuildBoard"
+  }
+}

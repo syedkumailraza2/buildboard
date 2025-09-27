@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BuildBoard</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">BuildBoard</h1>
+        <p class="subtitle">Generate cool project ideas based on difficulty</p>
+
+        <label for="difficulty">Select Difficulty</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium" selected>Medium</option>
+        <option value="hard">Hard</option>
+        <option value="expert">Expert</option>
+      </select>
+        <div class="buttons">
+            <button id="generate" class="btn primary">Generate Idea</button>
+        </div>
+
+        <div class="loader" id="loader" hidden>
+            <div id="loading" class="loading" hidden>
+                <div class="spinner"></div>
+                <span>Generating…</span>
+            </div>
+        </div>
+
+
+        <div id="result" class="result" hidden></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
