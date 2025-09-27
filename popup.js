@@ -77,7 +77,7 @@ function extractJSON(text) {
 // Recommended: call your server which proxies to Gemini (server sample included in repo)
 async function callServer(prompt){
   // Replace with your deployed server URL
-  const serverUrl = 'http://localhost:3000/generate';
+  const serverUrl = 'https://buildboard-ten.vercel.app/generate';
   const res = await fetch(serverUrl, {
     method: 'POST',
     headers: {'Content-Type':'application/json'},
