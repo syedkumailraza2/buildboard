@@ -84,11 +84,11 @@ cd buildboard
 ### 2️⃣ Setup Backend (Node + Express)
 
 Go to backend folder:
-
+```bash
 cd backend
 npm install
 npm start
-
+```
 Server will start at:
 [http://localhost:3000](http://localhost:3000)
 
@@ -111,9 +111,9 @@ Server will start at:
 
 ## 🔗 Sample API Endpoints
 
-Method: GET
-Endpoint: /generate
-Description: Generate Problem
+### Method: GET
+### Endpoint: /generate
+### Description: Generate Problem
 ---
 
 ## 🎯 Use Cases
